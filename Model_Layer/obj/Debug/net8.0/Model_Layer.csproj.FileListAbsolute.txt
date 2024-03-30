@@ -1,0 +1,14 @@
+D:\C# Repository\BookStore\Model_Layer\bin\Debug\net8.0\Model_Layer.deps.json
+D:\C# Repository\BookStore\Model_Layer\bin\Debug\net8.0\Model_Layer.runtimeconfig.json
+D:\C# Repository\BookStore\Model_Layer\bin\Debug\net8.0\Model_Layer.dll
+D:\C# Repository\BookStore\Model_Layer\bin\Debug\net8.0\Model_Layer.pdb
+D:\C# Repository\BookStore\Model_Layer\obj\Debug\net8.0\Model_Layer.csproj.AssemblyReference.cache
+D:\C# Repository\BookStore\Model_Layer\obj\Debug\net8.0\Model_Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Repository\BookStore\Model_Layer\obj\Debug\net8.0\Model_Layer.AssemblyInfoInputs.cache
+D:\C# Repository\BookStore\Model_Layer\obj\Debug\net8.0\Model_Layer.AssemblyInfo.cs
+D:\C# Repository\BookStore\Model_Layer\obj\Debug\net8.0\Model_Layer.csproj.CoreCompileInputs.cache
+D:\C# Repository\BookStore\Model_Layer\obj\Debug\net8.0\Model_Layer.dll
+D:\C# Repository\BookStore\Model_Layer\obj\Debug\net8.0\refint\Model_Layer.dll
+D:\C# Repository\BookStore\Model_Layer\obj\Debug\net8.0\Model_Layer.pdb
+D:\C# Repository\BookStore\Model_Layer\obj\Debug\net8.0\Model_Layer.genruntimeconfig.cache
+D:\C# Repository\BookStore\Model_Layer\obj\Debug\net8.0\ref\Model_Layer.dll

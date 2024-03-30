@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "BookStore.Controllers.UserController",
+    "Method": "Registration",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model_Layer.Models.UserRegistrationModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Model_Layer.Models.ResponseModel\u00601[[Model_Layer.Models.UserRegistrationModel, Model_Layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
