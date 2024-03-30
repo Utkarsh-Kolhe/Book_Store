@@ -22,5 +22,10 @@ namespace Bussiness_Layer.ServiceBL
         {
             return _userInterfaceRL.Registration(model);
         }
+
+        public string Login(UserLoginModel model)
+        {
+            return _userInterfaceRL.Login(model);
+        }
     }
 }

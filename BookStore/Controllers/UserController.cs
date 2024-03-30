@@ -17,6 +17,7 @@ namespace BookStore.Controllers
         }
 
         [HttpPost]
+        [Route("regestration")]
         public ResponseModel<UserRegistrationModel> Registration(UserRegistrationModel model)
         {
             ResponseModel<UserRegistrationModel> responseModel = new ResponseModel<UserRegistrationModel>();
@@ -41,6 +42,35 @@ namespace BookStore.Controllers
                 responseModel.Success = false;
                 responseModel.Message = ex.Message;
             }
+            return responseModel;
+        }
+
+        [HttpPost]
+        [Route("login")]
+        public ResponseModel<string> Login(UserLoginModel model)
+        {
+            ResponseModel<string> responseModel = new ResponseModel<string>();
+            try
+            {
+                var token = _userInterfaceBL.Login(model);
+
+                if (token != null)
+                {
+                    responseModel.Message = "User logged in successfully.";
+                    responseModel.Data = token;
+                }
+                else
+                {
+                    responseModel.Success = false;
+                    responseModel.Message = "Invalid credentials.";
+                }
+            }
+            catch (Exception ex)
+            {
+                responseModel.Success = false;
+                responseModel.Message = ex.Message;
+            }
+
             return responseModel;
         }
         

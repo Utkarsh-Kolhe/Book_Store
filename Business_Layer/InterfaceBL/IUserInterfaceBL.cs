@@ -10,5 +10,7 @@ namespace Bussiness_Layer.InterfaceBL
     public interface IUserInterfaceBL
     {
         public bool Registration(UserRegistrationModel model);
+
+        public string Login(UserLoginModel model);
     }
 }

@@ -7,22 +7,12 @@ using System.Threading.Tasks;
 
 namespace Model_Layer.Models
 {
-    public class UserRegistrationModel
+    public class UserLoginModel
     {
-        [Required]
-        public string FirstName { get; set; }
-
-        [Required]
-        public string LastName { get; set; }
-
         [EmailAddress]
-        [Required]
         public string EmailAddress { get; set; }
 
         [Required]
         public string Password { get; set; }
-
-        [Required]
-        public bool IsAdmin { get; set; }
     }
 }
