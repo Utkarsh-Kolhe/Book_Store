@@ -5471,6 +5471,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.3",
       "Microsoft.Extensions.Caching.StackExchangeRedis >= 8.0.3",
       "Model_Layer >= 1.0.0",
+      "Repository_Layer >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "System.Security.Claims >= 4.3.0"
     ]
@@ -5507,6 +5508,9 @@
             },
             "D:\\C# Repository\\BookStore\\Model_Layer\\Model_Layer.csproj": {
               "projectPath": "D:\\C# Repository\\BookStore\\Model_Layer\\Model_Layer.csproj"
+            },
+            "D:\\C# Repository\\BookStore\\Repository_Layer\\Repository_Layer.csproj": {
+              "projectPath": "D:\\C# Repository\\BookStore\\Repository_Layer\\Repository_Layer.csproj"
             }
           }
         }

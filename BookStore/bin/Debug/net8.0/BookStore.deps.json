@@ -16,6 +16,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "8.0.3",
           "Microsoft.Extensions.Caching.StackExchangeRedis": "8.0.3",
           "Model_Layer": "1.0.0",
+          "Repository_Layer": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0",
           "System.Security.Claims": "4.3.0"
         },
